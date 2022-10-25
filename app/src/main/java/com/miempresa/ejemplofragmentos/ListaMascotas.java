@@ -35,7 +35,7 @@ public class ListaMascotas extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View vista = inflater.inflate(R.layout.activity_adopcion, container, false);
+        View vista = inflater.inflate(R.layout.fragmentomascotas, container, false);
         RecyclerView recyclerView = vista.findViewById(R.id.reciclermascotas);
         adaptadorMascotas = new AdaptadorMascotas(savedInstanceState.getStringArray("datos"));
         recyclerView.setAdapter(adaptadorMascotas);
