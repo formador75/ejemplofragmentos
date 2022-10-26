@@ -42,7 +42,7 @@ public class AdaptadorMascotas extends RecyclerView.Adapter<AdaptadorMascotas.My
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            textView = itemView.findViewById(R.id.textView);
+            textView = itemView.findViewById(R.id.textView2);
         }
 
         public TextView getTextView(){
